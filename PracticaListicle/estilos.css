@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+}
+
+@media only screen and (max-device-width: 1366px) {
+  .header {
+    background-attachment: scroll;
+  }  
+}
+
+header {
+  background-image:linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url('C:/Users/Ukyo/Desktop/PracticaListicle/recursos/header.png') ;
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /*parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+#titulo{
+  font-family: "Roboto Slab", serif;
+  color: white;
+  font-size: 36px;
+  font-weight: normal;
+  width: 780px;
+  text-align: center;
+}
+
+#informacionPersonal {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+
+#informacionPersonal-foto {
+background-image: url('recursos/foto perfil.jpg');
+background-size: cover;
+background-position: center;
+border-radius: 100%;
+width: 100px;
+height: 100px;
+margin-top: -50px;
+border: 1px solid white;
+}
+
+#informacionPersonal-texto {
+text-align: center;
+font-family: "Source Sans Pro", sans-serif;
+font-size: 18px;
+color: rgb(51, 51, 51);
+line-height: 24px;
+padding-bottom: 10px;
+border-bottom: 2px solid #e6e6e6;
+
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#listicle-cuerpo {
+  width: 66.67%;
+  position: relative;
+}
+
+.header-titulo {
+  font-family: "Roboto Slab", serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: rgb(51, 51, 51);
+}
+
+.pie-recomendacion {
+  height: 20px;
+}
+
+.puesto-numero-contenedor {
+  position: absolute;
+  right: 100%;
+}
+
+.puesto-numero {
+  position: absolute;
+  right: 40px;
+  font-family: "Roboto Slab", serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.25);
+
+}
+
+.texto-info {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+  color: rgb(51, 51, 51);
+  margin: 0px;
+}
+
+.buena-practica{
+  padding: 60px 0px;
+}
+
+a {
+  color: #42b4d6;
+  text-decoration: none;
+  font-weight: normal;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  width: 100%;
+  max-height: 1000px;
+
+}
+
