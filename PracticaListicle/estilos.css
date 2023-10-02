@@ -5,11 +5,11 @@ body {
 @media only screen and (max-device-width: 1366px) {
   .header {
     background-attachment: scroll;
-  }  
+  }
 }
 
 header {
-  background-image:linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url('C:/Users/Ukyo/Desktop/PracticaListicle/recursos/header.png') ;
+  background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url('C:/Users/Ukyo/Desktop/PracticaListicle/recursos/header.png');
   background-size: cover;
   height: 500px;
   display: flex;
@@ -24,7 +24,7 @@ header {
 
 }
 
-#titulo{
+#titulo {
   font-family: "Roboto Slab", serif;
   color: white;
   font-size: 36px;
@@ -42,24 +42,24 @@ header {
 
 
 #informacionPersonal-foto {
-background-image: url('recursos/foto perfil.jpg');
-background-size: cover;
-background-position: center;
-border-radius: 100%;
-width: 100px;
-height: 100px;
-margin-top: -50px;
-border: 1px solid white;
+  background-image: url('recursos/foto perfil.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  margin-top: -50px;
+  border: 1px solid white;
 }
 
 #informacionPersonal-texto {
-text-align: center;
-font-family: "Source Sans Pro", sans-serif;
-font-size: 18px;
-color: rgb(51, 51, 51);
-line-height: 24px;
-padding-bottom: 10px;
-border-bottom: 2px solid #e6e6e6;
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+  color: rgb(51, 51, 51);
+  line-height: 24px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #e6e6e6;
 
 }
 
@@ -109,7 +109,7 @@ section {
   margin: 0px;
 }
 
-.buena-practica{
+.buena-practica {
   padding: 60px 0px;
 }
 
@@ -130,4 +130,3 @@ img {
   max-height: 1000px;
 
 }
-
